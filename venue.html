@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+    background: url('lieden.jpeg') no-repeat center center;
+    background-size: cover;  /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling (optional) */
+    height: 50vh; /* Adjust this value based on how tall you want the header */
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    color: white; /* Ensures text remains readable */
+}
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(1px);
+        }
+        header h1, header h2, header p {
+            position: relative;
+            z-index: 1;
+            color: white;
+            font-family: 'Georgia', serif;
+        }
+        header h1 {
+            position: relative;
+            z-index: 1;
+            color: white;
+			font-size: 50px;
+            font-family: 'Georgia', serif;
+        }
+        header p {
+            font-size: 30px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: justify;
+        }
+        section h2 {
+            font-size: 32px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>Government Policies and Scientific Collaboration (GPSC)</h1>
+        <p>Dates: 12:00 PM 8 May - 18:00 PM 9 May</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="call_for_paper.html">Call for Abstracts</a>
+        
+        <a href="speakers.html">Speakers</a>
+        <a href="schedule.html">Schedule</a>
+		<a href="#top">Venue</a>
+        <a href="organizing_committee.html">Organizing Committee</a>
+    </nav>
+
+    <section id="cfp">
+        <h2>Venue</h2>
+        <p>This workshop will happen at Leiden University, one of the oldest and most prestigious universities in Europe,
+		located in the historic city of Leiden, Netherlands. Leiden University is known for its world-class research 
+		and vibrant academic atmosphere. Leiden offers a perfect setting for our conference.
+</p>
+        
+  
+
+   
+        <h2>Address</h2>
+        <p>Gorlaeus Building - Leiden University<br>
+Einsteinweg 55, 2333 CC Leiden, Netherlands
+</p>
+        
+        
+
+        <h2>Getting Here</h2>
+        <p><ul>
+            <li><strong>By Train :</strong> Leiden is easily accessible by train, with direct connections to Amsterdam, Rotterdam,
+			and The Hague. The venue is a short walk or bike ride from Leiden Central Station.
+</li>
+            <li><strong>By Air :</strong> Schiphol Airport (Amsterdam) is just 20 minutes away by train, offering easy access for international travellers.</li>
+            
+            <li><strong>By Car :</strong> Parking is available near the venue.</li>
+           
+                     
+        </ul>
+</p>
+        
+  <h2>Explore Leiden</h2>
+  <p>Leiden is a picturesque city filled with canals, historic landmarks, and a rich cultural heritage. 
+  Take a stroll through its cobbled streets, visit museums like the National Museum of Antiquities, or enjoy a boat tour through the canals.</p>
+        
+
+        
+<p style="font-size: 15px; text-align: center; color: #333; margin-top: 10px;">
+    For inquiries, please contact: 
+    <a href="mailto:scicolnet@gmail.com" style="color: #007BFF; text-decoration: none; font-weight: bold;">scicolnet@gmail.com</a>.
+</p>
+<p style="font-size: 15px; text-align: center; color: #333; margin-top: 10px;">
+    We look forward to welcoming you to Leiden University for a memorable conference experience!
+
+</p>
+    </section>
+
+    
+</body>
+</html>
